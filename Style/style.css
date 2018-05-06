@@ -284,9 +284,16 @@ ul
 footer
 {
     color: #fff;
-    padding: 1%;
+    padding: 2px;
     border-top: 2px solid silver;
-    padding-bottom: 2%
+    padding-bottom: 2%;
+    height: 52px;
+}
+
+footer .right img
+{
+    width: 48px;
+    height: 48px;
 }
 
 #page-wrap:after

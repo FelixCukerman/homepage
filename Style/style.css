@@ -199,6 +199,7 @@ header
     font-size: 2em;
     font-family: century gothic, sans-serif;
     font-weight: 100;
+    text-align: center;
 }
 
 .progressbar 

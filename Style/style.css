@@ -255,6 +255,7 @@ header
     margin-right: 6%;
 }
 
+@media (min-width: 1130px){
 .sometime div
 {
     background-color: #fff;
@@ -266,8 +267,23 @@ header
     padding-top: 1%;
     margin-left: 17.5%;
     margin-top: 2%;
-}
+}}
 
+@media (max-width: 1129px){
+    .sometime div
+    {
+        background-color: #fff;
+        border-radius: 25px;
+        border: 2px solid silver;
+        width: 65%;
+        height: 65px;
+        text-align: center;
+        padding-top: 1%;
+        margin-left: 17.5%;
+        margin-top: 2%;
+}}
+
+@media (min-width: 1130px){
 .sometime div:hover
 {
     background-color: #78909C;
@@ -281,7 +297,23 @@ header
     padding-top: 1%;
     margin-left: 17.5%;
     margin-top: 2%;
-}
+}}
+
+@media (max-width: 1129px){
+    .sometime div:hover
+    {
+        background-color: #78909C;
+        color: #fff;
+        border-radius: 25px;
+        transition: all.4s ease;
+        border: 2px solid silver;
+        width: 65%;
+        height: 65px;
+        text-align: center;
+        padding-top: 1%;
+        margin-left: 17.5%;
+        margin-top: 2%;
+}}
 
 ul
 {

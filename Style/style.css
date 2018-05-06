@@ -145,27 +145,53 @@ header
     min-height: 768px;
 }
 
-.left-part
-{
-    padding-top: 30px;
-    float: left;
-    margin: 0;
-    width: 40%;
-    min-height: 1090px;
-    background-color: #ECEFF1;
-    border-right: 6px solid #B0BEC5;
-}
-
-.right-part
-{
-    padding-top: 30px;
-    float: right;
-    margin: 0;
-    width: 59.50%;
-    max-width: 59.50%;
-    min-height: 1090px;
-    background-color: #ECEFF1;
-}
+    @media (min-width: 1130px){
+    .left-part
+    {
+        padding-top: 30px;
+        float: left;
+        margin: 0;
+        width: 39.9%;
+        max-width: 40%;
+        min-height: 1090px;
+        background-color: #ECEFF1;
+        border-right: 6px solid #B0BEC5;
+    }}
+    
+    @media (max-width: 1129px){
+    .left-part
+    {
+        padding-top: 30px;
+        margin: 5%;
+        width: 90%;
+        min-height: 1090px;
+        background-color: #ECEFF1;
+        border-right: 6px solid #B0BEC5;
+    }}
+    
+    @media (min-width: 1130px){
+    .right-part
+    {
+        padding-top: 30px;
+        float: right;
+        margin: 0;
+        width: 59.50%;
+        max-width: 59.50%;
+        min-height: 1090px;
+        background-color: #ECEFF1;
+    }}
+    
+    @media (max-width: 1129px){
+    .right-part
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 5%;
+        width: 90.2%;
+        max-width: 95%;
+        min-height: 1090px;
+        background-color: #ECEFF1;
+    }}
 
 .myH
 {

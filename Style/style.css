@@ -281,6 +281,7 @@ ul
     list-style-type: none;
 }
 
+@media (min-width: 1129px){
 footer
 {
     width: 100%;
@@ -289,8 +290,18 @@ footer
     padding-bottom: 2px;
     border-top: 2px solid silver;
     padding-bottom: 2%;
-    height: 52px;
-}
+    height: 62px;
+}}
+
+@media (max-width: 1130px){
+    footer
+    {
+        width: 100%;
+        color: #fff;
+        border-top: 2px solid silver;
+        padding-bottom: 4%;
+        height: 52px;
+}}
 
 footer .right img
 {

@@ -178,7 +178,7 @@ header
 .progressbar 
 {
     background-color: #78909C;
-    border-radius: 30px; /* (height of inner div) / 2 + padding */
+    border-radius: 13px; /* (height of inner div) / 2 + padding */
     padding: 3px;
     margin-bottom: 10px;
     margin-left: 17.5%;
@@ -189,11 +189,10 @@ header
 
 .progress
 {
-    border-radius: 30px;
-    background-color: #D4E157;
-    width: 75%; /* Adjust with JavaScript */
-    height: 30px;
-    border-radius: 10px;
+   background-color: #D4E157;
+   width: 75%; /* Adjust with JavaScript */
+   height: 30px;
+   border-radius: 10px;
 }
 
 #evil
@@ -226,6 +225,7 @@ header
 .sometime div
 {
     background-color: #fff;
+    border-radius: 25px;
     border: 2px solid silver;
     width: 65%;
     height: 40px;

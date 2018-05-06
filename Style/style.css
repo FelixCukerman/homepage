@@ -224,11 +224,6 @@ header
     margin-right: 6%;
 }
 
-.timeline
-{
-    
-}
-
 .sometime div
 {
     background-color: #fff;
@@ -246,7 +241,7 @@ header
     background-color: #78909C;
     color: #fff;
     border-radius: 25px;
-    transition: all.6s ease;
+    transition: all.3s ease;
     border: 2px solid silver;
     width: 65%;
     height: 40px;

@@ -162,6 +162,7 @@ header
     float: right;
     margin: 0;
     width: 59.50%;
+    max-width: 59.50%;
     min-height: 1090px;
     background-color: #ECEFF1;
 }
@@ -177,7 +178,7 @@ header
 .progressbar 
 {
     background-color: #78909C;
-    border-radius: 13px; /* (height of inner div) / 2 + padding */
+    border-radius: 30px; /* (height of inner div) / 2 + padding */
     padding: 3px;
     margin-bottom: 10px;
     margin-left: 17.5%;

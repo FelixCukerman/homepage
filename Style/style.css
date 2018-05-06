@@ -283,8 +283,10 @@ ul
 
 footer
 {
+    width: 100%;
     color: #fff;
-    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-top: 2px solid silver;
     padding-bottom: 2%;
     height: 52px;
@@ -292,8 +294,8 @@ footer
 
 footer .right img
 {
-    width: 48px;
-    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
 }
 
 #page-wrap:after

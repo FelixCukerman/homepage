@@ -189,10 +189,11 @@ header
 
 .progress
 {
-   background-color: #D4E157;
-   width: 75%; /* Adjust with JavaScript */
-   height: 30px;
-   border-radius: 10px;
+    border-radius: 30px;
+    background-color: #D4E157;
+    width: 75%; /* Adjust with JavaScript */
+    height: 30px;
+    border-radius: 10px;
 }
 
 #evil
